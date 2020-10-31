@@ -2,8 +2,8 @@
 
 Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:
 
-![image](./interior1.png)
-![image](./interior2.png)
+![image](./source-material/images/interior1.png)
+![image](./source-material/images/interior2.png)
 
 -   User story: I can see a page following the given design
 -   User story: On mobile, I can see a collapsed navigation
