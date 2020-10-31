@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <title>Interior Consultant</title>
 </head>
+
 <body>
-    <header>
-        <h1>Interior Consultant</h1>
+    <input type="checkbox" id="menu" name="menu">
+    <header class="site_header">
+        <h1 class="site_header__heading">This Interior</h1>
+        <label for="menu" class="site_header__menulabel">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            <span class="spane_menu">Menu</span>
+        </label>
+        <nav class="site_header__navigation">
+            <ul class="site_header__lists">
+                <li class="site_header__lists--items"><a class="site_header__lists--items-link" href="/home"> Home</a></li>
+                <li class="site_header__lists--items"><a class="site_header__lists--items-link" href="/collection"> Collection</a></li>
+                <li class="site_header__lists--items"><a class="site_header__lists--items-link" href="/about"> About</a></li>
+                <li class="site_header__lists--items"><a class="site_header__lists--items-link" href="/contact"> Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    <main>
+    <div class="container">
+        <header class="masthead">
+            <h2 class="masthead_heading">Modern interior</h>
+            <p class="masthead_description">
+                A full-Service residential & commercial interior design and staging company offering professional organizing
+                & eco-services.
+            </p>
+            <button class="masthead_button">Read more →</button>
+         </header>
+        <article class="article">
+            <picture class="article_images">
+                <!-- <source media="(min-width: 1170px)" srcset="./images/photo1.png">
+                <source media="(min-width: 768px)" srcset="./images/photo1-md.png"> -->
+                <img src="./images/photo1.png" alt="Photo of the interior consultant">
+            </picture>
+            <div class="article_descritpion">
+                <img src="./images/photo2.png">
+                <p class="article_descritpion__name">Aliza Webber</p>
+                <p class="article_descritpion__job">Interior designer</p>
+                <h3 class="article_description__heading">Designed in 2020 by Aliza Webber</h3>
+            </div>
+        </article>
+        </div>
+    </main>
+    <footer>
+        <p>Your name @ DevChallenges.io</p>
+    </footer>
 </body>
+
 </html>

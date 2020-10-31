@@ -1,3 +1,5 @@
-html {
-    background-color: aqua;
-}
+@import "default";
+@import "site-header";
+@import "masthead";
+@import "article";
+@import "footer";
