@@ -128,6 +128,8 @@ body > input[type="checkbox"]:checked ~ .site_header .site_header__menulabel {
         padding-top: unset;
         margin-left: 86px;
     }
+
+    .close_menu svg,
     .site_header__menulabel svg {
         display: none;
     }
