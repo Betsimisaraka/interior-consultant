@@ -10,7 +10,14 @@ body, h1, h2, h3, ul li, ul li p, p, article {
     margin: 0;
 }
 
-.container {
+.container, .site_header {
     margin-left: 12px;
     margin-right: 12px;
+}
+
+@media (min-width: 800px) {
+    .container, .site_header {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
 }

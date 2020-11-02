@@ -11,6 +11,14 @@ footer p {
     line-height: 17px;
     color: #A9A9A9;
     border-top: 1px solid #A9A9A9;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 16px;
+}
+
+@media (min-width: 800px) {
+    footer p {
+        border-top: unset;
+        text-align: center;
+    }
 }

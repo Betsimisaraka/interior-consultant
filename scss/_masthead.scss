@@ -1,6 +1,7 @@
 .masthead {
      padding-top: 45px;
      padding-bottom: 26px;
+     width: 410px;
 }
 
 .masthead_heading {
@@ -30,4 +31,14 @@
     color: #FFFFFF;
     background: none;
     border: none;
+}
+
+@media (min-width: 800px) {
+    .masthead {
+        padding-top: 171px;
+    }
+    .masthead_description {
+        padding-top: 40px;
+        padding-bottom: 48px;
+    }
 }
